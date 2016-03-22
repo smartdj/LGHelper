@@ -183,7 +183,7 @@ else { dispatch_async(dispatch_get_main_queue(), block); }\
 #define kNavBarHeight           44.f //self.navigationController.navigationBar.frame.size.height
 #define kStatusBarHeight        20.f //[UIApplication sharedApplication].statusBarFrame.size.height
 #define kStatusAndNavBarsHeight 64.f //([UIApplication sharedApplication].statusBarFrame.size.height+self.navigationController.navigationBar.frame.size.height)
-
+#define kTabBarHeight   kSystemVersion >= 8.0 ? 49 : kSystemVersion >= 7.0 ? 56 : kSystemVersion >= 6.0 ? 49 : 0
 // --------------------------------------------------
 
 #pragma mark - Aspects
