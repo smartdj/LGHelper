@@ -374,9 +374,11 @@ else { dispatch_async(dispatch_get_main_queue(), block); }\
 
 /** Need to send email and sms */
 @import MessageUI;
+#import <MessageUI/MessageUI.h>
 
 /** Need to open addresses and coorinates on map */
 @import MapKit;
+#import <MapKit/MapKit.h>
 
 typedef NS_ENUM(NSUInteger, LGImageScalingMode)
 {
